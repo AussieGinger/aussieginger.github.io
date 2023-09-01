@@ -1,3 +1,7 @@
+#flexboxleft{
+    box-flex: left;
+}
+
 #overview-1{
     color:black;
     margin-bottom: 1px;
@@ -19,6 +23,11 @@
 
 .monitoring-link{
 
+}
+
+.nav-button{
+    border-radius: 2px;
+    border-color: black;
 }
 
 a{
