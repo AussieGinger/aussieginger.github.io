@@ -12,74 +12,78 @@
     -->
 
     <head>
-        <link rel="stylesheet" href = "styles/index-styling.css">
+        <link rel="stylesheet" href="./styles/styles.css">
         <title>Josh's Internship Project</title>
         <meta charset="UTF-8">
         <meta lang = "en">
-        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-        
+        <meta name = "viewport" content="width=device-width, 
+                                user-scalable=no,
+                                initial-scale=1.0,
+                                maximum-scale=1.0,
+                                minimum-scale=1.0">
+        <meta name="description" content="Josh's Internship Project">
+        <!-- Might add later
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        -->
     </head>
 
-    <header>
-        <h1 id = "overview-1">Bat Monitoring at Lake Powell</h1>
-        <h1 id = "overview-2">Internship Project For Joshua Burns</h1>
+    <header class = "flex-row">
         <nav>
-            <a class = nav-button href=./index.html>Home</a>
-            <a class = nav-button href="./bat-types.html">
-                Bat Types</a>
-            <a class = nav-button href="./detection-methods.html">
-                Detection Methods</a>
-            <a class = nav-button href="./reccomendations.html"> Group
-                Reccomendations</a>
-            <a class = nav-button href="./references.html">
-                References</a>
+            <ul class = "bg-green-900 flex justify-around shrink flex-wrap text-lg strong p-2 border-solid border-b-2 border-black">
+                <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4 rounded-lg"><a href=./index.html>
+                    Home</a></li>
+                <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4  rounded-lg"> <a href="./bat-types.html">
+                    Bat Types</a></li>
+                <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4 rounded-lg"><a href="./detection-methods.html">
+                    Detection Methods</a></li>
+                <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4 rounded-lg"> <a href="./reccomendations.html"> Group
+                    Reccomendations</a></li>
+                <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4 rounded-lg"><a href="./references.html">
+                    References</a></li>
+            </ul>
         </nav>
     </header>
 
-    <body class = flexboxleft>
-
-        <div id = first_paragraph>
-         <h2>Who am I and why did I do a website.</h2>
-            <p>
-                I am Joshua Burns, hi. I am currently studying a bachelor of Computer Science at Swinburne University, majoring in Cyber Security
-                I thought I would do a website instead of just a powerpoint as, well, the ammount of times I said something along the lines of 
-                "I am studying computer science, I know it doesn't neccesarily relate to environment ect." So I thought I would show how my computer science studies
-                can in fact assist me with environmental work.
-            </p>
-        </div>
+    <body class="flex-row">
         
-        <div id = second_paragraph>
-            <h2>Backstory for the Project</h2>
-            <p>I was told basically "There might be bats, noone has even looked into this, you would be going in blind</p>
-            <p>I initially wasn't going to do it. However I went on a trip to vanuatu and went into a cave filled with bats, and, well, was pretty struck by what a cool animal they are.</p>
-        </div>
-        
-        <div id = third_paragraph>
-            <h2>Approaching the Project</h2>
-            <p>At first it was pretty daunting, But I decided to break it up into a few different things along the way to keep me on track</p>
-            <list>
-                <ol>
-                    <li><a id = "species-link" href = "bat-types.html">Identifying Possible Species</a> &#40Click It!&#41</li>
-                    <ul>
-                        <li>Based on Location</li>
-                        <li>Based on Previous Research &#40See Image 3&#41 </li>
-                        <li>Where those Species reside</li>
-                    </ul>
-                    <li>Monitoring Methods</li>
-                    <ul>
-                        <li><a class = "monitoring-link" href = "detection-methods.html#SECTION">Audio Monitoring</a></li>
-                        <li><a class = "monitoring-link" href = "detection-methods.html#SECTION">Visual Observation</a></li>
-                        <li><a class = "monitoring-link" href = "detection-methods.html#SECTION">Harp Trapping</a></li>
-                        <li><a class = "monitoring-link" href = "detection-methods.html#SECTION">Mist Trapping</a></li>
-                    </ul>
-                </ol>
-            </list>
-        </div>
+            <div class = "text-center pt-2 border-2 border-black mb-1">
+                <h1 class = "text-5xl font-bold mb-2">Bat Monitoring at Lake Powell</h1>
+                <h2 class = "text-3xl font-semibold mb-2">Internship Project For Joshua Burns</h2>
+            </div>     
+        <span class = "flex">
+            <div class = "flex-row w-1/2 border-black border-2">
+                <h3 class = "italic font-medium text-xl text-center">Who am I and why did I do a website?</h3>
+                    <p class = "mx-1.5">Hi. I'm Joshua Burns</p>
+                    <p class = "mx-1.5">I am currently studying a bachelor of Computer Science at Swinburne University, majoring in Cyber Security.</p>
+                    <p class = "mx-1.5">I thought I would do a website instead of just a powerpoint is that I would often find myself saying something along the lines of:</p>
+                    <p class = "mx-1.5 italic">"I am studying computer science, I know it doesn't neccesarily relate to environment ect."</p>
+                    <p class = "mx-1.5">So I thought I would show how my computer science studies can in fact assist me with environmental work.</p>
+                <h3 class = "text-center text-xl font-semibold my-1.5">Backstory for the Project</h3>
+                    <p class = "mx-1.5">I was told something along the lines of:</p>
+                    <p class = "mx-1.5 italic">"There might be bats, noone has even looked into this, you would be going in blind"</p>
+                    <p class = "mx-1.5">Initially I wasn't going to do this project. However I had a change of heart when I went on a trip to Vanuatu. I went into a cave filled with bats, and, well, was pretty struck by what a cool animal they are. Unfortunately I don't have a photo of the cave or bats within the cave, however, the noises of the bats rushing past me was surreal.</p>
+                <h3 class = "font-semibold text-center text-xl my-1.5">Approaching the Project</h3>
+                    <p class = "mx-1.5">At first it was a very daunting prospect, But I decided to break it up into a few different things along the way to keep me on track:</p>
+                    
+                    <list>
+                        <ol class="list-decimal">
+                            <li class = "ml-20 mt-3"><a id = "species-link" href = "bat-types.html">Identifying Possible Species</a> &#40Click That!&#41</li>
+                            <ul class="ml-40 list-disc">
+                                <li>Based on Location</li>
+                                <li>Based on Previous Research &#40See Image 3&#41 </li>
+                                <li>Where those Species reside</li>
+                            </ul>
+                            <li class="ml-20 mt-3">Monitoring Methods &#40Click Each of the below!&#41</li>
+                            <ul class="ml-40 list-disc">
+                                <li><a href = "detection-methods.html#audio">Audio Monitoring</a></li>
+                                <li><a href = "detection-methods.html#harp">Harp Trapping</a></li>
+                                <li><a href = "detection-methods.html#mist">Mist Trapping</a></li>
+                            </ul>
+                        </ol>
+                    </list>
+            </div>
 
+            <img class = "w-1/2 border-2 border-black" src = "./images/internship-project-brief.jpg" alt = "Task Sheet for Internship Project">
+        </span>
     </body>
-
-    <aside>
-    <img src = "./images/internship-project-brief.png" alt = "Task Sheet for Internship Project">
-    </aside>
-
 </html>
