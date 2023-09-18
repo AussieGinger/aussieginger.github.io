@@ -733,6 +733,14 @@ video {
   width: auto;
 }
 
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
