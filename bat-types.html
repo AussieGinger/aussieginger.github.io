@@ -11,19 +11,19 @@
     <meta name="description" content="Josh's Internship Project">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
-
+<!--Buttons on the left, check laptiop-->
 <header class = "flex-row">
     <nav>
-        <ul class = "bg-green-900 flex justify-around shrink flex-wrap text-lg strong p-2 border-solid border-b-2 border-black">
-            <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4 rounded-lg"><a href=./index.html>
+        <ul class = "bg-green-800 backgroundgreen flex justify-center shrink flex-wrap text-lg strong p-2 border-solid border-b- border-black">
+            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"><a href=./index.html>
                 Home</a></li>
-            <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4  rounded-lg"> <a href="./bat-types.html">
+            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2  rounded-md"> <a href="./bat-types.html">
                 Bat Types</a></li>
-            <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4 rounded-lg"><a href="./detection-methods.html">
+            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"><a href="./detection-methods.html">
                 Detection Methods</a></li>
-            <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4 rounded-lg"> <a href="./reccomendations.html">
+            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"> <a href="./reccomendations.html">
                 Reccomendations</a></li>
-            <li class = "hover:bg-green-950 border-slate-600 p-1.5 mt-1 text-center border-4 rounded-lg"><a href="./references.html">
+            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"><a href="./references.html">
                 References</a></li>
         </ul>
     </nav>
@@ -31,10 +31,10 @@
 
 <body>
         <span >
-            <h1 class = " flex flex-row justify-center flex-wrap text-6xl text-center font-bold mb-5 border-black border-2">Types of Bats</h1>
+            <h1 class = " flex flex-row justify-center flex-wrap text-6xl text-center font-bold mb-6 ">Types of Bats</h1>
         </span>
     <span class = "flex">
-        <span class="border-2 border-black p-1 w-2/5 text-xl">
+        <span class="p-1 w-2/5 text-xl">
             <span>
                 <h2 class="text-3xl font-semibold text-center py-2">Site Info</h2>
                 <p>The lake powell site is located close to the Murray River. <br> It backs onto a small offshoot of the murray river named Bonyaricall Creek. <br> The site is located roughly 20km South East of Robinvale or 110km South east of Mildura.</p>
@@ -42,9 +42,9 @@
             </span>
 
             <span class = "text-xl">
-                <h2 class = "text-3xl font-semibold text-center my-2 ">How I Researched</h2>
+                <h2 class = "text-3xl font-semibold text-center my-2">How I Researched</h2>
                 <p>The Victorian Biodiversity Atlas is linked <a class = "font-semibold hover:font-normal" href = "https://vba.biodiversity.vic.gov.au/vba/#/">here</a></p>
-                <p>
+                <p class = "mb-2">
                     To begin I isolated an area around the site, and filtered my search down to bats. <br> 
                     From there I was displayed a number of species and sightings. They were Seperated into two main observations. <br>
                     One group of observations from 1994 and another from 2013.<br>
@@ -55,6 +55,15 @@
                     The data from the 2013 study also listed numbers of bats observed as well as the vegetation the bats were observed in.<br>
                     I ended up narrowing the species down to 4 likely suspects. The Chocolate wattled bat, Goulds: Wattled, and long eared bats as well as the White Striped Freetailed Bat.<br>
                 </p>
+                
+                <ul class = "text-center mx-auto flex flex-row text-xl flex-row justify-evenly">
+                    <a href = "./bat-types/chocolate-wattled.html"><li class = "p-1 my-1 rounded border-slate-600 border-4 bg-blue-500 hover:bg-blue-600 w-72">Chocolate Wattled Bat</li></a>
+                    <a href = "./bat-types/goulds-wattled.html"><li class = "p-1 my-1 rounded border-slate-600 border-4 bg-blue-500 hover:bg-blue-600 w-72">Gould's Wattled Bat</li></a>
+                </ul>
+                <ul class = "text-center mx-auto flex flex-row text-xl justify-evenly flex-row">
+                    <a href = "./bat-types/long-eared.html"><li class = "p-1 my-2 rounded border-slate-600 border-4 bg-blue-500 hover:bg-blue-600 w-72">Gould's Long Eared Bat</li></a>
+                    <a href = "./bat-types/white-striped-freetailed.html"><li class = "p-1 my-2 px-1 rounded border-slate-600 border-4 bg-blue-500 hover:bg-blue-600 w-72">White Striped Long Eared Bat</li></a>
+                </ul>
             </span>
         </span>
 
@@ -63,12 +72,7 @@
             <img class = "m-1 mb-3 w-fit" src = "./images/VBA-1.jpg" alt = "Image of Area Observed On The Vic biodiversity Atlas">
             <figcaption class = "text-center -mt-2 mb-2">Victorian Biodiversity Atlas Website</figcaption>
             </figure>
-            <ul class = "text-center mx-auto flex flex-row text-xl justify-around">
-                <a href = "./bat-types/chocolate-wattled.html"><li class = "p-1 my-2 rounded border-slate-600 border-4 bg-blue-500 hover:bg-blue-600">Chocolate Wattled Bat</li></a>
-                <a href = "./bat-types/goulds-wattled.html"><li class = "p-1 my-2 rounded border-slate-600 border-4 bg-blue-500 hover:bg-blue-600">Gould's Wattled Bat</li></a>
-                <a href = "./bat-types/long-eared.html"><li class = "p-1 my-2 rounded border-slate-600 border-4 bg-blue-500 hover:bg-blue-600">Gould's Long Eared Bat</li></a>
-                <a href = "./bat-types/white-striped-freetailed.html"><li class = "p-1 my-2 px-1 rounded border-slate-600 border-4 bg-blue-500 hover:bg-blue-600">White Striped Long Eared Bat</li></a>
-            </ul>
+            
         </span>
     </span>
 </body>
