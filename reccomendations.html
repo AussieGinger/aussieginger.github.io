@@ -14,22 +14,23 @@
 
 <header class = "flex-row">
     <nav>
-        <ul class = "bg-green-800 backgroundgreen flex justify-center shrink flex-wrap text-lg strong p-2 border-solid border-b- border-black">
-            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"><a href=./index.html>
+
+        <ul class = "bg-green-800 backgroundgreen flex justify-center shrink flex-wrap text-lg font-semibold strong p-2 border-solid border-b- border-black">
+            <li class = "hover:bg-green-500 bg-green-600 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"><a href=./index.html>
                 Home</a></li>
-            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2  rounded-md"> <a href="./bat-types.html">
+            <li class = "hover:bg-green-500 bg-green-600 border-black mx-3 p-1.5 mt-1 text-center border-2  rounded-md"> <a href="./bat-types.html">
                 Bat Types</a></li>
-            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"><a href="./detection-methods.html">
+            <li class = "hover:bg-green-500 bg-green-600 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"><a href="./detection-methods.html">
                 Detection Methods</a></li>
-            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"> <a href="./reccomendations.html">
+            <li class = "hover:bg-green-500 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"> <a href="./reccomendations.html">
                 Reccomendations</a></li>
-            <li class = "hover:bg-green-600 bg-green-700 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"><a href="./references.html">
+            <li class = "hover:bg-green-500 bg-green-600 border-black mx-3 p-1.5 mt-1 text-center border-2 rounded-md"><a href="./references.html">
                 References</a></li>
         </ul>
     </nav>
 </header>
 
-<body class="flex-row">
+<body class="flex-row bg-gray-50">
     <h2 class = "text-5xl font-bold text-center my-5 mb-8 w-full flex-row">Results of My Trip To Lake Powell</h2> 
     <div class = "flex flex-row">
         
@@ -52,8 +53,9 @@
         </div>
         <!--Add some space between the photos-->
         <div class = "flex-row flex flex-shrink w-2/3 flex-wrap ">
-            <figure class = "text-center flex-shrink-0 w-1/2 mb-9 ">
-                <img class = "border-2 border-black m-2"
+            <div class = "flex-row flex">
+                <figure class = "text-center flex-shrink-0 w-1/2 mb-9 ">
+                <img class = "border-2 border-black"
                 src = "./images/mk201_1024x1024.png" 
                 alt = "A Picture of the Bat Detector used">
                 <figcaption class="text-lg">The Home-Made Bat Detector</figcaption>
@@ -64,18 +66,21 @@
                 alt = "A picture demonstrating the Vegitation at the site.">
                 <figcaption class = "text-lg">Vegetation at Lake Powell</figcaption>
             </figure>
-            <figure class = "text-center flex-shrink-0 w-1/2 -my-6">
+            </div>
+            <div class = "flex-row flex">
+                <figure class = "text-center flex-shrink-0 w-1/2 -my-6">
                 <img class = "border-2 border-black"
                 src = "./images/river-flooded.jpg" 
                 alt = "A picture of the flooded river">
                 <figcaption class = "text-lg">Photo Of Flooded River</figcaption>
             </figure>
             <figure class = "text-center flex-shrink-0 w-1/2">
-                <img class = "my-14 mb-0 border-2 border-black"
+                <img class = "my-14 mb-0 border-2 border-black m-2"
                 src = "./images/flood-lines-tree.jpg" 
                 alt = "A tree with lines on it from flooding">
                 <figcaption class = "text-lg">Tree with lines from Flooding</figcaption>
             </figure>
+            </div>            
         </div>
     </div>
     <br>
